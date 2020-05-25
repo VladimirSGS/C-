@@ -10,7 +10,7 @@ int main()
 	setlocale(LC_ALL, "ru");
 
 	int number;
-	cin << number;
+	cin >> number;
 	if (number % 2 == 0) {
 		cout << "Число " << number <<"четное";
 	}
